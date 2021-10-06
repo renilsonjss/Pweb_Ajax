@@ -57,19 +57,15 @@
             <h2>RESGISTRAR USUÁRIO</h2>
 
             <label for="nome">Nome</label>
-            <input type="text" name="nome" id="nome"
-            value="<?php if(isset($res)){echo $res['nome'];} ?>">
+            <input type="text" name="nome" id="nome">
 
             <label for="email">Email</label>
-            <input type="text" name="email" id="email"
-            value="<?php if(isset($res)){echo $res['email'];} ?>">
+            <input type="text" name="email" id="email">
 
             <label for="nome">Senha</label>
-            <input type="text" name="senha" id="senha"
-            value="<?php if(isset($res)){echo $res['senha'];} ?>">
+            <input type="text" name="senha" id="senha">
 
-            <input type="submit" id="registrar"
-            value="<?php if(isset($res)){echo "Atualizar";}else{echo "Registrar";}?>">
+            <input type="submit" id="registrar">
 
         </form>
 
